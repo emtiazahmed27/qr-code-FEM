@@ -8,7 +8,9 @@ body {
 
 .qr-card {
   width: 25vw; /*molile view er jnno 45vw  and font-size hobe .7rem*/
-  margin: 2% auto;
+  margin: auto;
+  margin-top: 7%;
+  margin-bottom: 7%;
   background-color: white;
   border-radius: 1rem;
 }
@@ -36,23 +38,26 @@ body {
 
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1rem;
   text-align: center;
+  color: hsl(218, 44%, 22%);
 }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1rem;
   text-align: center;
-  color: #aeafb3;
+  color: hsl(220, 15%, 55%);
 }
 
 @media screen and (max-width: 376px) {
   .qr-card {
     width: 60vw;
-    margin: 2% auto;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
     background-color: white;
     border-radius: 0.5rem;
   }
@@ -63,16 +68,17 @@ p {
     margin-top: 0.5rem;
   }
   h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
     font-size: 0.7rem;
     text-align: center;
+    color: hsl(218, 44%, 22%);
   }
   p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 200;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
     font-size: 0.7rem;
     text-align: center;
-    color: #aeafb3;
+    color: hsl(220, 15%, 55%);
   }
 }
